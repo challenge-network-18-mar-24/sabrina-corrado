@@ -9,19 +9,23 @@ h1 {
   }
 
 .bg_col{
-  background-color: rgb(71, 171, 241)
+  background-color: rgb(13, 74, 118)
 }
 
 .bg_white{
-background-color: white;
+background-color: rgb(202, 200, 200);
 }
 
 .bg_black{
-  background-color: rgb(4, 29, 46)
+  background-color: rgb(1, 34, 56)
 }
 
-.text_center {
-  text-align: center;
+.text_ph {
+  text-align: left;
+}
+
+.text_al {
+  text-align: right;
 }
 
 .p_10{
@@ -46,10 +50,10 @@ background-color: white;
 }
 
 
-  #b {
+#b {
     
     list-style-type: square;
-  }
+}
 
   .circular-image {
     width: 300px;
@@ -58,10 +62,11 @@ background-color: white;
   }
 
   .title_name {
-    font-family: "Cookie", cursive;
+    font-family: "Red Hat Mono", monospace;
+    font-optical-sizing: auto;
     font-weight: 600;
-    font-style: normal;
-    font-size: 80px;
+    font-style: bold;
+    font-size: 120px;
   }
 
   .title_abme {
@@ -80,15 +85,72 @@ background-color: white;
     font-size: 40px;
   }
 
-
-  #font_me {
+  .font_h3 {
     font-family: "Darker Grotesque", sans-serif;
     font-optical-sizing: auto;
     font-weight: 30;
     font-style: normal;
-    font-size: 60px;
-
+    font-size: 40px;
   }
-  
-  
+
+  #container_intro {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#container_textintro {
+  width:70%;
+  margin-left: 10px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.m_20 {
+  margin: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: left;
+}
+
+.social-buttons a {
+  margin: 0 30px; /* Spazio tra i pulsanti */
+}
+
+.social-buttons img {
+  width: 50px; /* Dimensione dell'icona del social media */
+  height: auto;
+}
+
+.debug {
+  background-color: darkorange;
+  border: 20px solid red;
+}
+
+.img {
+  float: right;
+}
+
+.custom_button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+
+
+#round-image {
+    border-radius: 50%; /* Rende l'immagine tonda */
+    width: 430px; /* Imposta la larghezza dell'immagine */
+    height: 500px; /* Imposta l'altezza dell'immagine */
+}
+
     
