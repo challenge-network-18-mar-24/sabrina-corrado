@@ -210,3 +210,9 @@ h1 {
   width:500px;
   height:500 px;
 }
+
+.vicino_img {
+  display: inline-block; /* Imposta le immagini come elementi inline-block */
+  width: 100px;
+  height: 100px;
+}
