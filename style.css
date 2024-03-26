@@ -231,3 +231,8 @@ h1 {
   margin-right:auto;
   margin-left: 0;
 }
+
+.icon {
+  vertical-align: bottom;
+  margin:10px;
+}
