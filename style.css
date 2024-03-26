@@ -218,3 +218,20 @@ h1 {
   margin-right: auto;
   margin-top:auto;
 }
+
+.contact_buttons_img {
+  width: 40px;
+  /* Dimensione dell'icona del social media */
+  height: auto;
+}
+
+.img_icons{
+  width:30px;
+  height:auto;
+  margin: 0 30px;
+}
+
+.container_lan{
+  margin-right:auto;
+  margin-left: 0;
+}
