@@ -9,7 +9,7 @@ h1 {
 }
 
 .bg_col {
-  background-color: rgb(13, 74, 118);
+  background-color: #0d4a76;
 }
 
 .bg_white {
@@ -71,7 +71,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 30;
   font-style: normal;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .font_h3 {
